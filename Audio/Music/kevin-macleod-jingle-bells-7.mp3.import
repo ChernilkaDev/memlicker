@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/kevin-macleod-jingle-bells-7.mp3-577dd8c5c94ed7a8f97f52d230fe6821.mp3str"
+
+[deps]
+
+source_file="res://Audio/Music/kevin-macleod-jingle-bells-7.mp3"
+dest_files=[ "res://import/kevin-macleod-jingle-bells-7.mp3-577dd8c5c94ed7a8f97f52d230fe6821.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

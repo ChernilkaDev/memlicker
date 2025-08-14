@@ -1,0 +1,2456 @@
+[gd_scene load_steps=166 format=2]
+
+[ext_resource path="res://Textures/bg/bg_space.png" type="Texture" id=1]
+[ext_resource path="res://Textures/ClickSkins/ButtonClickDoge.png" type="Texture" id=2]
+[ext_resource path="res://Textures/memcoin.png" type="Texture" id=3]
+[ext_resource path="res://Scripts/Game.gd" type="Script" id=4]
+[ext_resource path="res://Fonts/Pusia-Bold.otf" type="DynamicFontData" id=5]
+[ext_resource path="res://Audio/Music/spacemusic.mp3" type="AudioStream" id=6]
+[ext_resource path="res://Textures/bg/bg.png" type="Texture" id=7]
+[ext_resource path="res://Textures/MEMCHAR.png" type="Texture" id=8]
+[ext_resource path="res://Textures/BACK.png" type="Texture" id=9]
+[ext_resource path="res://Audio/Sounds/Click-Sound-Effect.mp3" type="AudioStream" id=10]
+[ext_resource path="res://Textures/Characters/Cards/TrollfaceCard.png" type="Texture" id=11]
+[ext_resource path="res://Textures/Characters/Profiles/TrollfaceProfileCard.png" type="Texture" id=12]
+[ext_resource path="res://Textures/EquipBut.png" type="Texture" id=13]
+[ext_resource path="res://Textures/Locked.png" type="Texture" id=14]
+[ext_resource path="res://Scenes/MiniGames/CatchTheObject.tscn" type="PackedScene" id=15]
+[ext_resource path="res://Textures/Characters/Cards/DogeCard.png" type="Texture" id=16]
+[ext_resource path="res://Textures/star.png" type="Texture" id=17]
+[ext_resource path="res://Textures/Characters/Cards/TabickCard.png" type="Texture" id=18]
+[ext_resource path="res://Scripts/CharactersProfiles.gd" type="Script" id=19]
+[ext_resource path="res://Textures/CreatorInPlanet.png" type="Texture" id=20]
+[ext_resource path="res://Textures/Characters/Cards/ChaikaCard.png" type="Texture" id=21]
+[ext_resource path="res://Textures/500k.png" type="Texture" id=22]
+[ext_resource path="res://Textures/Characters/Cards/HarpCard.png" type="Texture" id=23]
+[ext_resource path="res://Scripts/Cards.gd" type="Script" id=24]
+[ext_resource path="res://Textures/Left.png" type="Texture" id=25]
+[ext_resource path="res://Textures/Right.png" type="Texture" id=26]
+[ext_resource path="res://Textures/Characters/Cards/PivoCard.png" type="Texture" id=27]
+[ext_resource path="res://Textures/Characters/Cards/MopsCard.png" type="Texture" id=30]
+[ext_resource path="res://Textures/Help.png" type="Texture" id=31]
+[ext_resource path="res://Textures/telegram.png" type="Texture" id=32]
+[ext_resource path="res://Textures/tiktok.png" type="Texture" id=33]
+[ext_resource path="res://Scripts/Help.gd" type="Script" id=34]
+[ext_resource path="res://Textures/Info.png" type="Texture" id=35]
+[ext_resource path="res://Textures/Characters/Cards/SanicCard.png" type="Texture" id=36]
+[ext_resource path="res://Textures/Characters/Cards/DogWenoCard.png" type="Texture" id=39]
+[ext_resource path="res://Textures/gemcoin.png" type="Texture" id=40]
+[ext_resource path="res://Textures/Shop.png" type="Texture" id=41]
+[ext_resource path="res://Textures/MonToGem.png" type="Texture" id=42]
+[ext_resource path="res://Textures/NoCoins.png" type="Texture" id=43]
+[ext_resource path="res://Animations/NoCoinsAnim.tres" type="Animation" id=44]
+[ext_resource path="res://Scripts/Shop.gd" type="Script" id=45]
+[ext_resource path="res://Audio/Sounds/money-soundfx.mp3" type="AudioStream" id=46]
+[ext_resource path="res://Textures/NoGems.png" type="Texture" id=47]
+[ext_resource path="res://Textures/CardPackShop.png" type="Texture" id=48]
+[ext_resource path="res://Animations/NoGemsAnim.tres" type="Animation" id=49]
+[ext_resource path="res://Textures/Characters/Cards/ChindaCard.png" type="Texture" id=51]
+[ext_resource path="res://Textures/Characters/Cards/ChernilkaCard.png" type="Texture" id=53]
+[ext_resource path="res://Textures/Characters/Cards/LeninCard.png" type="Texture" id=54]
+[ext_resource path="res://Textures/Options.png" type="Texture" id=56]
+[ext_resource path="res://Textures/SoundAndMusic.png" type="Texture" id=57]
+[ext_resource path="res://Textures/Promo.png" type="Texture" id=58]
+[ext_resource path="res://Textures/CheckBoxDisabled.png" type="Texture" id=59]
+[ext_resource path="res://Textures/CheckBoxEnabled.png" type="Texture" id=60]
+[ext_resource path="res://Scripts/Settings.gd" type="Script" id=61]
+[ext_resource path="res://Textures/Agree.png" type="Texture" id=62]
+[ext_resource path="res://Animations/ErrorCode.tres" type="Animation" id=63]
+[ext_resource path="res://Textures/ErrorPromo.png" type="Texture" id=64]
+[ext_resource path="res://Scripts/CharacterUnlock.gd" type="Script" id=65]
+[ext_resource path="res://Textures/bg/bg_default.png" type="Texture" id=66]
+[ext_resource path="res://Textures/Characters/Unlock/dogweno.png" type="Texture" id=67]
+[ext_resource path="res://Animations/Unlock.tres" type="Animation" id=68]
+[ext_resource path="res://Textures/ErrorHavePromo.png" type="Texture" id=69]
+[ext_resource path="res://Animations/ErrorHaveCode.tres" type="Animation" id=70]
+[ext_resource path="res://Scripts/RandomSphereOpen.gd" type="Script" id=71]
+[ext_resource path="res://Animations/Open.tres" type="Animation" id=72]
+[ext_resource path="res://Animations/Spin.tres" type="Animation" id=73]
+[ext_resource path="res://Textures/RandomSphere/RandomSphere_text.png" type="Texture" id=74]
+[ext_resource path="res://Textures/bg/bg_opensphere.png" type="Texture" id=75]
+[ext_resource path="res://Textures/RandomSphere/RandomSphere_bg.png" type="Texture" id=76]
+[ext_resource path="res://Textures/Coins3D.png" type="Texture" id=77]
+[ext_resource path="res://Animations/Item1.tres" type="Animation" id=78]
+[ext_resource path="res://Textures/LevelUpSpriteLock.png" type="Texture" id=79]
+[ext_resource path="res://Textures/LevelUpSprite.png" type="Texture" id=80]
+[ext_resource path="res://Textures/loadscreen.png" type="Texture" id=81]
+[ext_resource path="res://Textures/LoadingLogo/4ernilkadev_text.png" type="Texture" id=82]
+[ext_resource path="res://Textures/LoadingLogo/Glow.png" type="Texture" id=83]
+[ext_resource path="res://Scripts/LoadScreen.gd" type="Script" id=84]
+[ext_resource path="res://Animations/FakeLoading.tres" type="Animation" id=85]
+[ext_resource path="res://Scripts/Load.gd" type="Script" id=86]
+[ext_resource path="res://Audio/Sounds/start_sound.mp3" type="AudioStream" id=87]
+[ext_resource path="res://Textures/rip.png" type="Texture" id=88]
+[ext_resource path="res://Animations/Item2.tres" type="Animation" id=89]
+[ext_resource path="res://Textures/Characters/Cards/HamsterCard.png" type="Texture" id=90]
+[ext_resource path="res://Textures/Characters/Cards/SigmaCard.png" type="Texture" id=93]
+[ext_resource path="res://Animations/Skip.tres" type="Animation" id=94]
+[ext_resource path="res://Textures/Characters/Unlock/chernilka.png" type="Texture" id=95]
+[ext_resource path="res://Animations/Scenessecret_anim.tres" type="Animation" id=96]
+[ext_resource path="res://Textures/Characters/Cards/ObnovaCard.png" type="Texture" id=98]
+[ext_resource path="res://Textures/CardPack/1.png" type="Texture" id=99]
+[ext_resource path="res://Textures/CardPack/2.png" type="Texture" id=100]
+[ext_resource path="res://Textures/Characters/Cards/СhillGuyCard.png" type="Texture" id=102]
+[ext_resource path="res://Textures/Characters/Cards/ClippyCard.png" type="Texture" id=104]
+[ext_resource path="res://Textures/Characters/Cards/AmogusCard.png" type="Texture" id=106]
+[ext_resource path="res://Textures/snow.png" type="Texture" id=107]
+[ext_resource path="res://Scripts/Minigames.gd" type="Script" id=108]
+[ext_resource path="res://Textures/MiniGamesTextures/catchtheobject/catchtheobject.png" type="Texture" id=109]
+
+[sub_resource type="Gradient" id=72]
+offsets = PoolRealArray( 0, 0.335484, 0.670968, 0.929032 )
+colors = PoolColorArray( 0, 0.054902, 0.168627, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0.054902, 0.168627, 1 )
+
+[sub_resource type="GradientTexture" id=73]
+gradient = SubResource( 72 )
+
+[sub_resource type="Curve" id=74]
+_data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 0.747191, 1 ), 0.0, 0.0, 0, 0, Vector2( 1, 0.554545 ), 0.0, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=75]
+curve = SubResource( 74 )
+
+[sub_resource type="ParticlesMaterial" id=76]
+emission_shape = 2
+emission_box_extents = Vector3( 1000, 1000, 1 )
+flag_disable_z = true
+gravity = Vector3( 0, 0, 0 )
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+scale = 5.0
+scale_random = 1.0
+scale_curve = SubResource( 75 )
+color_ramp = SubResource( 73 )
+
+[sub_resource type="ParticlesMaterial" id=71]
+emission_shape = 2
+emission_box_extents = Vector3( 500, 1, 1 )
+flag_disable_z = true
+gravity = Vector3( 0, 100, 0 )
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+
+[sub_resource type="StyleBoxFlat" id=65]
+bg_color = Color( 0, 0.00784314, 0.207843, 1 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+shadow_size = 1
+shadow_offset = Vector2( 4, 4 )
+
+[sub_resource type="StyleBoxFlat" id=1]
+content_margin_left = 19.0
+content_margin_right = 10.0
+content_margin_top = 10.0
+content_margin_bottom = 10.0
+bg_color = Color( 0.419608, 0.372549, 0.372549, 0.815686 )
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+
+[sub_resource type="DynamicFont" id=2]
+size = 32
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=58]
+size = 30
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=59]
+bg_color = Color( 0.317647, 0.317647, 0.317647, 1 )
+skew = Vector2( 0.18, 0 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+expand_margin_left = 5.0
+expand_margin_right = 5.0
+expand_margin_top = 5.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="DynamicFont" id=66]
+size = 50
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=67]
+bg_color = Color( 0.486275, 0.698039, 0, 1 )
+border_width_left = 7
+border_width_top = 7
+border_width_right = 7
+border_width_bottom = 7
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="DynamicFont" id=5]
+size = 60
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+content_margin_left = 10.0
+content_margin_right = 10.0
+content_margin_top = 10.0
+content_margin_bottom = 10.0
+bg_color = Color( 0.454902, 0.454902, 0.454902, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_size = 1
+shadow_offset = Vector2( 0, 4 )
+
+[sub_resource type="DynamicFont" id=7]
+size = 115
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=20]
+bg_color = Color( 0.313726, 1, 0, 1 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=21]
+bg_color = Color( 0.384314, 0.384314, 0.384314, 1 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=55]
+bg_color = Color( 0.596078, 0.541176, 1, 1 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=56]
+bg_color = Color( 0.384314, 0.384314, 0.384314, 1 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="DynamicFont" id=22]
+size = 40
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=51]
+size = 71
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=60]
+size = 59
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0, 0, 0, 0.886275 )
+
+[sub_resource type="DynamicFont" id=8]
+size = 72
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxEmpty" id=9]
+
+[sub_resource type="StyleBoxEmpty" id=10]
+
+[sub_resource type="StyleBoxEmpty" id=11]
+
+[sub_resource type="StyleBoxEmpty" id=12]
+
+[sub_resource type="StyleBoxEmpty" id=13]
+
+[sub_resource type="DynamicFont" id=61]
+size = 53
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=16]
+size = 32
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxEmpty" id=18]
+
+[sub_resource type="StyleBoxEmpty" id=19]
+
+[sub_resource type="StyleBoxFlat" id=17]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="DynamicFont" id=62]
+size = 45
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=63]
+size = 47
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=64]
+bg_color = Color( 0.423529, 0.423529, 0.423529, 1 )
+skew = Vector2( 0.129, 0 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="Animation" id=14]
+resource_name = "NoCoinsAnim"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("NoCoins:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1, 2, 3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=15]
+resource_name = "NoGemsAnim"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("NoGems:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1, 2, 3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="StyleBoxTexture" id=23]
+texture = ExtResource( 66 )
+region_rect = Rect2( 0, 0, 632, 1280 )
+
+[sub_resource type="StyleBoxFlat" id=24]
+bg_color = Color( 0.290196, 0.32549, 0.403922, 1 )
+
+[sub_resource type="DynamicFont" id=25]
+size = 80
+outline_color = Color( 0, 0, 0, 1 )
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=26]
+bg_color = Color( 0.423529, 0.423529, 0.423529, 1 )
+skew = Vector2( 0.3, 0 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_size = 1
+shadow_offset = Vector2( 0, 10 )
+
+[sub_resource type="DynamicFont" id=27]
+size = 70
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=28]
+bg_color = Color( 0.423529, 0.423529, 0.423529, 1 )
+skew = Vector2( 0.3, 0 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_size = 1
+shadow_offset = Vector2( 0, 10 )
+
+[sub_resource type="StyleBoxEmpty" id=29]
+
+[sub_resource type="StyleBoxEmpty" id=30]
+
+[sub_resource type="StyleBoxEmpty" id=31]
+
+[sub_resource type="StyleBoxEmpty" id=32]
+
+[sub_resource type="StyleBoxEmpty" id=33]
+
+[sub_resource type="StyleBoxTexture" id=34]
+texture = ExtResource( 75 )
+region_rect = Rect2( 0, 0, 720, 1280 )
+
+[sub_resource type="DynamicFont" id=35]
+size = 86
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=36]
+bg_color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="DynamicFont" id=37]
+size = 76
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=57]
+size = 80
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=52]
+bg_color = Color( 0.831373, 0, 0, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="DynamicFont" id=53]
+size = 82
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=54]
+size = 63
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=38]
+size = 49
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=39]
+bg_color = Color( 0.94902, 0.4, 0, 1 )
+skew = Vector2( 0.06, 0 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=40]
+bg_color = Color( 0.121569, 0.121569, 0.121569, 1 )
+skew = Vector2( 0.06, 0 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=45]
+bg_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=46]
+bg_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="DynamicFont" id=47]
+size = 55
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=48]
+bg_color = Color( 0.333333, 0.333333, 0.333333, 1 )
+border_width_top = 25
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="DynamicFont" id=49]
+size = 22
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=50]
+size = 20
+use_filter = true
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=68]
+size = 68
+use_filter = true
+font_data = ExtResource( 5 )
+
+[node name="Game" type="CanvasLayer"]
+script = ExtResource( 4 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0.054902, 0.168627, 1 )
+
+[node name="Planet" type="TextureRect" parent="."]
+anchor_left = 0.792
+anchor_top = 0.273
+anchor_right = 0.792
+anchor_bottom = 0.273
+margin_left = -141.24
+margin_top = -141.44
+margin_right = 140.76
+margin_bottom = 140.56
+texture = ExtResource( 20 )
+expand = true
+
+[node name="StarsBG" type="Particles2D" parent="."]
+position = Vector2( 359, 614 )
+amount = 207
+lifetime = 5.0
+local_coords = false
+process_material = SubResource( 76 )
+texture = ExtResource( 17 )
+
+[node name="UI" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Bg" type="TextureRect" parent="UI"]
+visible = false
+anchor_right = 1.003
+anchor_bottom = 1.0
+margin_right = -2.16003
+texture = ExtResource( 1 )
+expand = true
+
+[node name="Snow" type="Particles2D" parent="UI"]
+visible = false
+position = Vector2( 360, -50 )
+amount = 70
+lifetime = 10.0
+process_material = SubResource( 71 )
+texture = ExtResource( 107 )
+
+[node name="bg_uppanel" type="Panel" parent="UI"]
+anchor_left = 0.018
+anchor_top = 0.012
+anchor_right = 0.979
+anchor_bottom = 0.165
+margin_left = 0.039999
+margin_top = -0.360001
+margin_right = 0.119995
+margin_bottom = -0.200012
+custom_styles/panel = SubResource( 65 )
+
+[node name="ClickButton" type="TextureButton" parent="UI"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -217.5
+margin_top = -217.5
+margin_right = 217.5
+margin_bottom = 217.5
+texture_normal = ExtResource( 2 )
+expand = true
+
+[node name="Coins" type="PanelContainer" parent="UI"]
+anchor_left = 0.124
+anchor_top = 0.053
+anchor_right = 0.124
+anchor_bottom = 0.053
+margin_left = -0.280006
+margin_top = -29.84
+margin_right = 84.72
+margin_bottom = 29.16
+custom_styles/panel = SubResource( 1 )
+
+[node name="Label" type="Label" parent="UI/Coins"]
+margin_left = 19.0
+margin_top = 10.0
+margin_right = 75.0
+margin_bottom = 49.0
+custom_fonts/font = SubResource( 2 )
+text = "0"
+align = 1
+valign = 1
+
+[node name="Memcoin" type="TextureRect" parent="UI"]
+anchor_left = 0.097
+anchor_top = 0.052
+anchor_right = 0.097
+anchor_bottom = 0.052
+margin_left = -35.84
+margin_top = -35.56
+margin_right = 36.16
+margin_bottom = 36.44
+texture = ExtResource( 3 )
+expand = true
+
+[node name="Gems" type="PanelContainer" parent="UI"]
+anchor_left = 0.124
+anchor_top = 0.124
+anchor_right = 0.124
+anchor_bottom = 0.124
+margin_left = -0.280006
+margin_top = -29.72
+margin_right = 84.72
+margin_bottom = 29.28
+custom_styles/panel = SubResource( 1 )
+
+[node name="Label" type="Label" parent="UI/Gems"]
+margin_left = 19.0
+margin_top = 10.0
+margin_right = 75.0
+margin_bottom = 49.0
+custom_fonts/font = SubResource( 2 )
+text = "0"
+align = 1
+valign = 1
+
+[node name="Gemcoin" type="TextureRect" parent="UI"]
+anchor_left = 0.097
+anchor_top = 0.123
+anchor_right = 0.097
+anchor_bottom = 0.123
+margin_left = -35.84
+margin_top = -35.44
+margin_right = 36.16
+margin_bottom = 36.56
+texture = ExtResource( 40 )
+expand = true
+
+[node name="MemCharBut" type="TextureButton" parent="UI"]
+anchor_left = 0.383
+anchor_top = 0.088
+anchor_right = 0.383
+anchor_bottom = 0.088
+margin_left = -75.76
+margin_top = -57.64
+margin_right = 76.24
+margin_bottom = 58.36
+texture_normal = ExtResource( 8 )
+expand = true
+
+[node name="ShopBut" type="TextureButton" parent="UI"]
+anchor_left = 0.606
+anchor_top = 0.088
+anchor_right = 0.606
+anchor_bottom = 0.088
+margin_left = -76.32
+margin_top = -75.64
+margin_right = 75.68
+margin_bottom = 58.36
+texture_normal = ExtResource( 41 )
+expand = true
+
+[node name="SettingsBut" type="TextureButton" parent="UI"]
+anchor_left = 0.827
+anchor_top = 0.088
+anchor_right = 0.827
+anchor_bottom = 0.088
+margin_left = -75.44
+margin_top = -70.64
+margin_right = 75.56
+margin_bottom = 58.36
+texture_normal = ExtResource( 56 )
+expand = true
+
+[node name="Info" type="TextureButton" parent="UI"]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_top = -160.0
+margin_right = 159.0
+texture_normal = ExtResource( 35 )
+expand = true
+
+[node name="savequit" type="Button" parent="UI"]
+visible = false
+anchor_left = 0.62
+anchor_top = 0.047
+anchor_right = 0.62
+anchor_bottom = 0.047
+margin_left = -147.4
+margin_top = -28.16
+margin_right = 147.6
+margin_bottom = 28.84
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+custom_colors/font_color_focus = Color( 1, 1, 1, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 58 )
+custom_styles/hover = SubResource( 59 )
+custom_styles/pressed = SubResource( 59 )
+custom_styles/focus = SubResource( 59 )
+custom_styles/disabled = SubResource( 59 )
+custom_styles/normal = SubResource( 59 )
+text = "Соxранить и выйти"
+
+[node name="MiniGamesBut" type="Button" parent="UI"]
+anchor_left = 0.676
+anchor_top = 0.943
+anchor_right = 0.676
+anchor_bottom = 0.943
+margin_left = -208.72
+margin_top = -42.04
+margin_right = 209.28
+margin_bottom = 40.96
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+custom_colors/font_color_focus = Color( 1, 1, 1, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 66 )
+custom_styles/hover = SubResource( 67 )
+custom_styles/pressed = SubResource( 67 )
+custom_styles/focus = SubResource( 67 )
+custom_styles/disabled = SubResource( 67 )
+custom_styles/normal = SubResource( 67 )
+text = "Мини-игры"
+
+[node name="Characters" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Bg" type="TextureRect" parent="Characters"]
+visible = false
+anchor_right = 1.003
+anchor_bottom = 1.0
+margin_right = -2.16003
+texture = ExtResource( 1 )
+expand = true
+
+[node name="BackBut" type="TextureButton" parent="Characters"]
+anchor_left = 0.11
+anchor_top = 0.045
+anchor_right = 0.11
+anchor_bottom = 0.045
+margin_left = -70.2
+margin_top = -50.6
+margin_right = 73.8
+margin_bottom = 50.4
+texture_normal = ExtResource( 9 )
+expand = true
+
+[node name="Cards" type="Control" parent="Characters"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 116.0
+script = ExtResource( 24 )
+
+[node name="Default" type="Control" parent="Characters/Cards"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="DogeCard" type="TextureButton" parent="Characters/Cards/Default"]
+anchor_left = 0.27
+anchor_top = 0.025
+anchor_right = 0.27
+anchor_bottom = 0.025
+margin_left = -111.4
+margin_top = -0.1
+margin_right = 111.6
+margin_bottom = 180.9
+texture_normal = ExtResource( 16 )
+
+[node name="SanicCard" type="TextureButton" parent="Characters/Cards/Default"]
+anchor_left = 0.667
+anchor_top = 0.025
+anchor_right = 0.667
+anchor_bottom = 0.025
+margin_left = -111.24
+margin_top = -0.1
+margin_right = 111.76
+margin_bottom = 180.9
+texture_normal = ExtResource( 36 )
+
+[node name="DefaultText" type="Label" parent="Characters/Cards/Default"]
+anchor_left = 0.95
+anchor_right = 0.95
+margin_left = -370.0
+margin_top = -78.0
+margin_right = -6.10352e-05
+margin_bottom = 15.0
+custom_fonts/font = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "ОБЫЧНЫЕ"
+align = 1
+
+[node name="Unusual" type="Control" parent="Characters/Cards"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="DefaultText" type="Label" parent="Characters/Cards/Unusual"]
+anchor_left = 0.683
+anchor_top = -0.027
+anchor_right = 0.683
+anchor_bottom = -0.027
+margin_left = -192.76
+margin_top = -46.572
+margin_right = 192.24
+margin_bottom = 46.428
+custom_fonts/font = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "НЕОБЫЧНЫЕ"
+align = 1
+
+[node name="DogWenoCard" type="TextureButton" parent="Characters/Cards/Unusual"]
+anchor_left = 0.27
+anchor_top = 0.103
+anchor_right = 0.27
+anchor_bottom = 0.103
+margin_left = -111.4
+margin_top = -90.892
+margin_right = 111.6
+margin_bottom = 90.108
+texture_normal = ExtResource( 39 )
+
+[node name="HamsterCard" type="TextureButton" parent="Characters/Cards/Unusual"]
+anchor_left = 0.667
+anchor_top = 0.103
+anchor_right = 0.667
+anchor_bottom = 0.103
+margin_left = -111.24
+margin_top = -90.892
+margin_right = 111.76
+margin_bottom = 90.108
+texture_normal = ExtResource( 90 )
+
+[node name="AmogusCard" type="TextureButton" parent="Characters/Cards/Unusual"]
+anchor_left = 0.667
+anchor_top = 0.266
+anchor_right = 0.667
+anchor_bottom = 0.266
+margin_left = -111.24
+margin_top = -90.624
+margin_right = 111.76
+margin_bottom = 90.376
+texture_normal = ExtResource( 106 )
+
+[node name="ClippyCard" type="TextureButton" parent="Characters/Cards/Unusual"]
+anchor_left = 0.27
+anchor_top = 0.266
+anchor_right = 0.27
+anchor_bottom = 0.266
+margin_left = -111.4
+margin_top = -90.624
+margin_right = 111.6
+margin_bottom = 90.376
+texture_normal = ExtResource( 104 )
+
+[node name="Legendary" type="Control" parent="Characters/Cards"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Legendary" type="Label" parent="Characters/Cards/Legendary"]
+anchor_left = 0.642
+anchor_top = -0.027
+anchor_right = 0.642
+anchor_bottom = -0.027
+margin_left = -221.24
+margin_top = -46.572
+margin_right = 221.76
+margin_bottom = 46.428
+custom_fonts/font = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "ЛЕГЕНДАРНЫЕ"
+align = 1
+
+[node name="TrollfaceCard" type="TextureButton" parent="Characters/Cards/Legendary"]
+anchor_left = 0.27
+anchor_top = 0.103
+anchor_right = 0.27
+anchor_bottom = 0.103
+margin_left = -111.4
+margin_top = -90.892
+margin_right = 111.6
+margin_bottom = 90.108
+texture_normal = ExtResource( 11 )
+
+[node name="SigmaCard" type="TextureButton" parent="Characters/Cards/Legendary"]
+anchor_left = 0.667
+anchor_top = 0.103
+anchor_right = 0.667
+anchor_bottom = 0.103
+margin_left = -111.24
+margin_top = -90.892
+margin_right = 111.76
+margin_bottom = 90.108
+texture_normal = ExtResource( 93 )
+
+[node name="ChaikaCard" type="TextureButton" parent="Characters/Cards/Legendary"]
+anchor_left = 0.27
+anchor_top = 0.266
+anchor_right = 0.27
+anchor_bottom = 0.266
+margin_left = -111.4
+margin_top = -90.624
+margin_right = 111.6
+margin_bottom = 90.376
+texture_normal = ExtResource( 21 )
+
+[node name="ChillGuyCard" type="TextureButton" parent="Characters/Cards/Legendary"]
+anchor_left = 0.667
+anchor_top = 0.266
+anchor_right = 0.667
+anchor_bottom = 0.266
+margin_left = -111.24
+margin_top = -90.624
+margin_right = 111.76
+margin_bottom = 90.376
+texture_normal = ExtResource( 102 )
+
+[node name="Specials" type="Control" parent="Characters/Cards"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="TabickCard" type="TextureButton" parent="Characters/Cards/Specials"]
+anchor_left = 0.27
+anchor_top = 0.103
+anchor_right = 0.27
+anchor_bottom = 0.103
+margin_left = -111.4
+margin_top = -90.892
+margin_right = 111.6
+margin_bottom = 90.108
+texture_normal = ExtResource( 18 )
+
+[node name="HarpCard" type="TextureButton" parent="Characters/Cards/Specials"]
+anchor_left = 0.667
+anchor_top = 0.103
+anchor_right = 0.667
+anchor_bottom = 0.103
+margin_left = -111.24
+margin_top = -90.892
+margin_right = 111.76
+margin_bottom = 90.1081
+texture_normal = ExtResource( 23 )
+
+[node name="PivoCard" type="TextureButton" parent="Characters/Cards/Specials"]
+anchor_left = 0.667
+anchor_top = 0.266
+anchor_right = 0.667
+anchor_bottom = 0.266
+margin_left = -111.24
+margin_top = -90.624
+margin_right = 111.76
+margin_bottom = 90.376
+texture_normal = ExtResource( 27 )
+
+[node name="MopsCard" type="TextureButton" parent="Characters/Cards/Specials"]
+anchor_left = 0.27
+anchor_top = 0.429
+anchor_right = 0.27
+anchor_bottom = 0.429
+margin_left = -111.4
+margin_top = -90.356
+margin_right = 111.6
+margin_bottom = 90.6441
+texture_normal = ExtResource( 30 )
+
+[node name="ChindaCard" type="TextureButton" parent="Characters/Cards/Specials"]
+anchor_left = 0.667
+anchor_top = 0.429
+anchor_right = 0.667
+anchor_bottom = 0.429
+margin_left = -111.24
+margin_top = -90.356
+margin_right = 111.76
+margin_bottom = 90.644
+texture_normal = ExtResource( 51 )
+
+[node name="ChernilkaCard" type="TextureButton" parent="Characters/Cards/Specials"]
+anchor_left = 0.27
+anchor_top = 0.592
+anchor_right = 0.27
+anchor_bottom = 0.592
+margin_left = -111.4
+margin_top = -90.088
+margin_right = 111.6
+margin_bottom = 90.912
+texture_normal = ExtResource( 53 )
+
+[node name="LeninCard" type="TextureButton" parent="Characters/Cards/Specials"]
+anchor_left = 0.27
+anchor_top = 0.266
+anchor_right = 0.27
+anchor_bottom = 0.266
+margin_left = -111.4
+margin_top = -90.624
+margin_right = 111.6
+margin_bottom = 90.376
+texture_normal = ExtResource( 54 )
+
+[node name="ObnovaCard" type="TextureButton" parent="Characters/Cards/Specials"]
+anchor_left = 0.667
+anchor_top = 0.592
+anchor_right = 0.667
+anchor_bottom = 0.592
+margin_left = -111.24
+margin_top = -90.088
+margin_right = 111.76
+margin_bottom = 90.912
+texture_normal = ExtResource( 98 )
+
+[node name="SpecialsText" type="Label" parent="Characters/Cards/Specials"]
+anchor_left = 0.693
+anchor_top = -0.027
+anchor_right = 0.693
+anchor_bottom = -0.027
+margin_left = -184.96
+margin_top = -46.572
+margin_right = 185.04
+margin_bottom = 46.428
+custom_fonts/font = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "ОСОБЕННЫЕ"
+align = 1
+
+[node name="DF" type="Control" parent="Characters/Cards"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="SpecialsText" type="Label" parent="Characters/Cards/DF"]
+anchor_left = 0.634
+anchor_top = -0.027
+anchor_right = 0.634
+anchor_bottom = -0.027
+margin_left = -227.48
+margin_top = -46.572
+margin_right = 227.52
+margin_bottom = 46.428
+custom_fonts/font = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "DARK FANTASY"
+align = 1
+
+[node name="Left" type="TextureButton" parent="Characters/Cards"]
+anchor_left = 0.331
+anchor_top = 0.928
+anchor_right = 0.331
+anchor_bottom = 0.928
+margin_left = -48.32
+margin_top = -50.192
+margin_right = 47.68
+margin_bottom = 49.808
+texture_normal = ExtResource( 25 )
+
+[node name="Right" type="TextureButton" parent="Characters/Cards"]
+anchor_left = 0.668
+anchor_top = 0.928
+anchor_right = 0.668
+anchor_bottom = 0.928
+margin_left = -47.96
+margin_top = -50.192
+margin_right = 48.04
+margin_bottom = 49.808
+texture_normal = ExtResource( 26 )
+
+[node name="PageNumber" type="Label" parent="Characters/Cards"]
+anchor_left = 0.5
+anchor_top = 0.921
+anchor_right = 0.5
+anchor_bottom = 0.921
+margin_left = -74.0
+margin_top = -69.0441
+margin_right = 73.0
+margin_bottom = 69.9559
+custom_fonts/font = SubResource( 7 )
+text = "1"
+align = 1
+valign = 1
+
+[node name="ButSound" type="AudioStreamPlayer" parent="Characters/Cards"]
+stream = ExtResource( 10 )
+
+[node name="ButSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 10 )
+
+[node name="BgMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+
+[node name="CharactersProfiles" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 19 )
+
+[node name="Bg" type="TextureRect" parent="CharactersProfiles"]
+visible = false
+anchor_right = 1.003
+anchor_bottom = 1.0
+margin_right = -2.16003
+texture = ExtResource( 1 )
+expand = true
+
+[node name="Profile" type="Control" parent="CharactersProfiles"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Info" type="TextureRect" parent="CharactersProfiles/Profile"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -271.0
+margin_top = -572.0
+margin_right = 272.0
+margin_bottom = 292.0
+texture = ExtResource( 12 )
+expand = true
+stretch_mode = 1
+
+[node name="EquipBut" type="TextureButton" parent="CharactersProfiles/Profile"]
+anchor_left = 0.5
+anchor_top = 0.912
+anchor_right = 0.5
+anchor_bottom = 0.912
+margin_left = -250.0
+margin_top = -50.3601
+margin_right = 250.0
+margin_bottom = 51.6399
+disabled = true
+texture_normal = ExtResource( 13 )
+texture_disabled = ExtResource( 14 )
+
+[node name="BackCharactersButT" type="TextureButton" parent="CharactersProfiles/Profile"]
+anchor_left = 0.11
+anchor_top = 0.045
+anchor_right = 0.11
+anchor_bottom = 0.045
+margin_left = -70.2
+margin_top = -50.6
+margin_right = 73.8
+margin_bottom = 50.4
+texture_normal = ExtResource( 9 )
+expand = true
+
+[node name="Upgrade" type="Control" parent="CharactersProfiles"]
+anchor_left = 0.5
+anchor_top = 0.802
+anchor_right = 0.5
+anchor_bottom = 0.802
+margin_left = -177.0
+margin_top = -79.5601
+margin_right = 177.0
+margin_bottom = 78.4399
+
+[node name="LevelUp" type="TextureButton" parent="CharactersProfiles/Upgrade"]
+anchor_left = 0.223
+anchor_top = 0.747
+anchor_right = 0.223
+anchor_bottom = 0.747
+margin_left = -152.942
+margin_top = -36.026
+margin_right = 153.058
+margin_bottom = 35.9739
+disabled = true
+texture_normal = ExtResource( 80 )
+texture_disabled = ExtResource( 79 )
+
+[node name="Level" type="ProgressBar" parent="CharactersProfiles/Upgrade"]
+anchor_left = 0.164
+anchor_top = 0.196
+anchor_right = 0.164
+anchor_bottom = 0.196
+margin_left = -132.056
+margin_top = -38.968
+margin_right = 131.944
+margin_bottom = 39.032
+custom_styles/fg = SubResource( 20 )
+custom_styles/bg = SubResource( 21 )
+percent_visible = false
+
+[node name="Copies" type="ProgressBar" parent="CharactersProfiles/Upgrade"]
+anchor_left = 0.924
+anchor_top = 0.196
+anchor_right = 0.924
+anchor_bottom = 0.196
+margin_left = -97.096
+margin_top = -38.968
+margin_right = 96.904
+margin_bottom = 39.032
+custom_styles/fg = SubResource( 55 )
+custom_styles/bg = SubResource( 56 )
+percent_visible = false
+
+[node name="LevelNumber" type="Label" parent="CharactersProfiles/Upgrade"]
+anchor_left = 0.155
+anchor_top = 0.193
+anchor_right = 0.155
+anchor_bottom = 0.193
+margin_left = -28.87
+margin_top = -24.4941
+margin_right = 29.13
+margin_bottom = 24.5059
+custom_fonts/font = SubResource( 22 )
+text = "1/3"
+align = 1
+valign = 1
+
+[node name="CardsNumber" type="Label" parent="CharactersProfiles/Upgrade"]
+anchor_left = 0.931
+anchor_top = 0.193
+anchor_right = 0.931
+anchor_bottom = 0.193
+margin_left = -32.574
+margin_top = -24.494
+margin_right = 32.426
+margin_bottom = 24.506
+custom_fonts/font = SubResource( 22 )
+text = "0/3"
+align = 1
+valign = 1
+
+[node name="X2Text" type="Label" parent="CharactersProfiles/Upgrade"]
+visible = false
+anchor_left = 1.328
+anchor_top = 0.256
+anchor_right = 1.328
+anchor_bottom = 0.256
+margin_left = -19.112
+margin_top = -57.448
+margin_right = 65.888
+margin_bottom = 28.552
+rect_rotation = 26.4
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 51 )
+text = "X2"
+align = 1
+
+[node name="Money" type="TextureRect" parent="CharactersProfiles/Upgrade"]
+anchor_left = 0.768
+anchor_top = 0.744
+anchor_right = 0.768
+anchor_bottom = 0.744
+margin_left = -27.872
+margin_top = -29.5519
+margin_right = 28.128
+margin_bottom = 29.4481
+texture = ExtResource( 3 )
+expand = true
+
+[node name="Quantity" type="Label" parent="CharactersProfiles/Upgrade"]
+anchor_left = 1.021
+anchor_top = 0.715
+anchor_right = 1.021
+anchor_bottom = 0.715
+margin_left = -54.434
+margin_top = -35.9699
+margin_right = 54.566
+margin_bottom = 36.0301
+custom_fonts/font = SubResource( 60 )
+text = "200"
+
+[node name="UnlockBut" type="TextureButton" parent="CharactersProfiles"]
+anchor_left = 0.5
+anchor_top = 0.912
+anchor_right = 0.5
+anchor_bottom = 0.912
+margin_left = -250.0
+margin_top = -50.3601
+margin_right = 250.0
+margin_bottom = 51.6399
+texture_normal = ExtResource( 13 )
+
+[node name="Sound" type="AudioStreamPlayer" parent="CharactersProfiles"]
+stream = ExtResource( 46 )
+
+[node name="Help" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 34 )
+
+[node name="Bg" type="TextureRect" parent="Help"]
+visible = false
+anchor_right = 1.003
+anchor_bottom = 1.0
+margin_right = -2.16003
+texture = ExtResource( 1 )
+expand = true
+
+[node name="Panel" type="Panel" parent="Help"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 3 )
+
+[node name="HelpText" type="TextureRect" parent="Help"]
+anchor_left = 0.5
+anchor_top = 0.369
+anchor_right = 0.5
+anchor_bottom = 0.369
+margin_left = -305.0
+margin_top = -431.32
+margin_right = 306.0
+margin_bottom = 429.68
+texture = ExtResource( 31 )
+
+[node name="Telegram" type="TextureButton" parent="Help"]
+anchor_left = 0.315
+anchor_top = 0.806
+anchor_right = 0.315
+anchor_bottom = 0.806
+margin_left = -85.8
+margin_top = -85.6801
+margin_right = 85.2
+margin_bottom = 85.3199
+texture_normal = ExtResource( 32 )
+expand = true
+
+[node name="TikTok" type="TextureButton" parent="Help"]
+anchor_left = 0.687
+anchor_top = 0.806
+anchor_right = 0.687
+anchor_bottom = 0.806
+margin_left = -85.64
+margin_top = -85.6801
+margin_right = 85.36
+margin_bottom = 85.3199
+texture_normal = ExtResource( 33 )
+expand = true
+
+[node name="Back" type="Button" parent="Help"]
+anchor_left = 0.5
+anchor_top = 0.941
+anchor_right = 0.5
+anchor_bottom = 0.941
+margin_left = -108.0
+margin_top = -46.4801
+margin_right = 108.0
+margin_bottom = 46.5199
+custom_fonts/font = SubResource( 8 )
+custom_styles/hover = SubResource( 9 )
+custom_styles/pressed = SubResource( 10 )
+custom_styles/focus = SubResource( 11 )
+custom_styles/disabled = SubResource( 12 )
+custom_styles/normal = SubResource( 13 )
+text = "Назад"
+
+[node name="VersionCode" type="Label" parent="Help"]
+anchor_left = 0.028
+anchor_top = 0.991
+anchor_right = 0.028
+anchor_bottom = 0.991
+margin_left = -0.16
+margin_top = -65.4801
+margin_right = 173.84
+margin_bottom = -0.480103
+custom_fonts/font = SubResource( 61 )
+text = "v 1.3(4)"
+
+[node name="Settings" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 61 )
+
+[node name="Bg" type="TextureRect" parent="Settings"]
+visible = false
+anchor_right = 1.003
+anchor_bottom = 1.0
+margin_right = -2.16003
+texture = ExtResource( 1 )
+expand = true
+
+[node name="SettingsText" type="Label" parent="Settings"]
+anchor_left = 0.726
+anchor_top = 0.066
+anchor_right = 0.726
+anchor_bottom = 0.066
+margin_left = -161.72
+margin_top = -46.48
+margin_right = 161.28
+margin_bottom = 46.52
+custom_fonts/font = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "Настройки"
+align = 1
+
+[node name="BackBut" type="TextureButton" parent="Settings"]
+anchor_left = 0.11
+anchor_top = 0.045
+anchor_right = 0.11
+anchor_bottom = 0.045
+margin_left = -70.2
+margin_top = -50.6
+margin_right = 73.8
+margin_bottom = 50.4
+texture_normal = ExtResource( 9 )
+expand = true
+
+[node name="SAM" type="TextureRect" parent="Settings"]
+anchor_left = 0.5
+anchor_top = 0.157
+anchor_right = 0.5
+anchor_bottom = 0.157
+margin_left = -212.5
+margin_top = -33.96
+margin_right = 212.5
+margin_bottom = 33.04
+texture = ExtResource( 57 )
+expand = true
+
+[node name="Promo" type="TextureRect" parent="Settings"]
+anchor_left = 0.5
+anchor_top = 0.471
+anchor_right = 0.5
+anchor_bottom = 0.471
+margin_left = -279.0
+margin_top = -31.88
+margin_right = 280.0
+margin_bottom = 32.12
+texture = ExtResource( 58 )
+
+[node name="Music" type="CheckBox" parent="Settings"]
+anchor_left = 0.667
+anchor_top = 0.227
+anchor_right = 0.667
+anchor_bottom = 0.227
+margin_left = -48.2401
+margin_top = -48.56
+margin_right = 47.7599
+margin_bottom = 47.44
+focus_mode = 1
+custom_icons/checked = ExtResource( 60 )
+custom_icons/unchecked = ExtResource( 59 )
+pressed = true
+enabled_focus_mode = 1
+align = 1
+icon_align = 1
+
+[node name="Skipload" type="CheckBox" parent="Settings"]
+anchor_left = 0.5
+anchor_top = 0.367
+anchor_right = 0.5
+anchor_bottom = 0.367
+margin_left = -48.0
+margin_top = -47.76
+margin_right = 48.0
+margin_bottom = 48.24
+focus_mode = 1
+custom_icons/checked = ExtResource( 60 )
+custom_icons/unchecked = ExtResource( 59 )
+pressed = true
+enabled_focus_mode = 1
+align = 1
+icon_align = 1
+
+[node name="Sound" type="CheckBox" parent="Settings"]
+anchor_left = 0.29
+anchor_top = 0.226
+anchor_right = 0.29
+anchor_bottom = 0.226
+margin_left = -47.8
+margin_top = -48.28
+margin_right = 48.2
+margin_bottom = 47.72
+focus_mode = 1
+custom_icons/checked = ExtResource( 60 )
+custom_icons/unchecked = ExtResource( 59 )
+pressed = true
+enabled_focus_mode = 1
+align = 1
+icon_align = 1
+
+[node name="PromoLabel" type="LineEdit" parent="Settings"]
+anchor_left = 0.5
+anchor_top = 0.545
+anchor_right = 0.5
+anchor_bottom = 0.545
+margin_left = -207.0
+margin_top = -33.1003
+margin_right = 207.0
+margin_bottom = 31.8997
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 16 )
+custom_styles/read_only = SubResource( 18 )
+custom_styles/focus = SubResource( 19 )
+custom_styles/normal = SubResource( 17 )
+align = 1
+
+[node name="Agree" type="TextureButton" parent="Settings"]
+anchor_left = 0.5
+anchor_top = 0.63
+anchor_right = 0.5
+anchor_bottom = 0.63
+margin_left = -200.0
+margin_top = -39.4001
+margin_right = 200.0
+margin_bottom = 40.5999
+texture_normal = ExtResource( 62 )
+
+[node name="ErrorPromo" type="TextureRect" parent="Settings"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_left = 0.5
+anchor_top = 0.902
+anchor_right = 0.5
+anchor_bottom = 0.902
+margin_left = -185.5
+margin_top = -36.5601
+margin_right = 185.5
+margin_bottom = 35.4399
+texture = ExtResource( 64 )
+
+[node name="ErrorHavePromo" type="TextureRect" parent="Settings"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_left = 0.5
+anchor_top = 0.902
+anchor_right = 0.5
+anchor_bottom = 0.902
+margin_left = -185.5
+margin_top = -42.5601
+margin_right = 185.5
+margin_bottom = 42.4399
+texture = ExtResource( 69 )
+
+[node name="Animation" type="AnimationPlayer" parent="Settings"]
+anims/ErrorCode = ExtResource( 63 )
+anims/ErrorHaveCode = ExtResource( 70 )
+
+[node name="Label" type="Label" parent="Settings"]
+anchor_left = 0.5
+anchor_top = 0.298
+anchor_right = 0.5
+anchor_bottom = 0.298
+margin_left = -156.0
+margin_top = -27.94
+margin_right = 156.0
+margin_bottom = 27.06
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 0.396078, 0.396078, 0.396078, 0.462745 )
+custom_constants/shadow_offset_x = 0
+custom_constants/shadow_offset_y = 5
+custom_fonts/font = SubResource( 62 )
+text = "Фейк загрузка"
+
+[node name="SkinPacks" type="Button" parent="Settings"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.808
+anchor_right = 0.5
+anchor_bottom = 0.808
+margin_left = -145.5
+margin_top = -40.24
+margin_right = 145.5
+margin_bottom = 39.76
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+custom_colors/font_color_focus = Color( 1, 1, 1, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 63 )
+custom_styles/hover = SubResource( 64 )
+custom_styles/pressed = SubResource( 64 )
+custom_styles/focus = SubResource( 64 )
+custom_styles/disabled = SubResource( 64 )
+custom_styles/normal = SubResource( 64 )
+text = "Скин-Паки"
+
+[node name="Shop" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 45 )
+
+[node name="Bg" type="TextureRect" parent="Shop"]
+visible = false
+anchor_right = 1.003
+anchor_bottom = 1.0
+margin_right = -2.16003
+texture = ExtResource( 1 )
+expand = true
+
+[node name="DefaultText" type="Label" parent="Shop"]
+anchor_left = 0.773
+anchor_top = 0.066
+anchor_right = 0.773
+anchor_bottom = 0.066
+margin_left = -127.56
+margin_top = -46.48
+margin_right = 127.44
+margin_bottom = 46.52
+custom_fonts/font = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "Магазин"
+align = 1
+
+[node name="BackBut" type="TextureButton" parent="Shop"]
+anchor_left = 0.11
+anchor_top = 0.045
+anchor_right = 0.11
+anchor_bottom = 0.045
+margin_left = -70.2
+margin_top = -50.6
+margin_right = 73.8
+margin_bottom = 50.4
+texture_normal = ExtResource( 9 )
+expand = true
+
+[node name="NoCoins" type="TextureRect" parent="Shop"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_left = 0.5
+anchor_top = 0.062
+anchor_right = 0.5
+anchor_bottom = 0.062
+margin_left = -185.5
+margin_top = -56.36
+margin_right = 185.5
+margin_bottom = 56.64
+texture = ExtResource( 43 )
+
+[node name="NoGems" type="TextureRect" parent="Shop"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_left = 0.5
+anchor_top = 0.062
+anchor_right = 0.5
+anchor_bottom = 0.062
+margin_left = -185.5
+margin_top = -56.36
+margin_right = 185.5
+margin_bottom = 56.64
+texture = ExtResource( 47 )
+
+[node name="NoCoinsAnim" type="AnimationPlayer" parent="Shop"]
+anims/NoCoinsAnim = ExtResource( 44 )
+anims/NoGemsAnim = ExtResource( 49 )
+
+[node name="NoGemsAnim" type="AnimationPlayer" parent="Shop"]
+anims/NoCoinsAnim = SubResource( 14 )
+anims/NoGemsAnim = SubResource( 15 )
+
+[node name="SoundMonToGem" type="AudioStreamPlayer" parent="Shop"]
+stream = ExtResource( 46 )
+
+[node name="BuyButtons" type="Control" parent="Shop"]
+anchor_top = 0.134
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -0.520004
+
+[node name="MonToGem" type="TextureButton" parent="Shop/BuyButtons"]
+anchor_left = 0.5
+anchor_top = 0.02
+anchor_right = 0.5
+anchor_bottom = 0.02
+margin_left = -261.5
+margin_top = 0.319998
+margin_right = 261.5
+margin_bottom = 226.32
+texture_normal = ExtResource( 42 )
+
+[node name="RandomSphereBuy" type="TextureButton" parent="Shop/BuyButtons"]
+anchor_left = 0.5
+anchor_top = 0.028
+anchor_right = 0.5
+anchor_bottom = 0.028
+margin_left = -261.0
+margin_top = 226.948
+margin_right = -19.0
+margin_bottom = 606.948
+texture_normal = ExtResource( 48 )
+
+[node name="K500" type="TextureButton" parent="Shop/BuyButtons"]
+anchor_left = 0.5
+anchor_top = 0.028
+anchor_right = 0.5
+anchor_bottom = 0.028
+margin_left = 20.0
+margin_top = 226.948
+margin_right = 262.0
+margin_bottom = 606.948
+texture_normal = ExtResource( 22 )
+
+[node name="CharacterUnlock" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 65 )
+
+[node name="ColorRarity" type="Panel" parent="CharacterUnlock"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 23 )
+
+[node name="AnimUnlock" type="AnimationPlayer" parent="CharacterUnlock"]
+anims/Unlock = ExtResource( 68 )
+
+[node name="BG" type="Panel" parent="CharacterUnlock"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 24 )
+
+[node name="Size" type="Control" parent="CharacterUnlock"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -190.5
+margin_top = -242.0
+margin_right = 190.316
+margin_bottom = 242.0
+rect_scale = Vector2( 1e-05, 1e-05 )
+rect_pivot_offset = Vector2( 190, 242 )
+
+[node name="Character" type="TextureRect" parent="CharacterUnlock/Size"]
+modulate = Color( 0, 0, 0, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -190.0
+margin_top = -242.0
+margin_right = 191.0
+margin_bottom = 242.0
+rect_pivot_offset = Vector2( 190, 242 )
+rect_clip_content = true
+texture = ExtResource( 67 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="NewText" type="Label" parent="CharacterUnlock"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_left = 0.5
+anchor_top = 0.133
+anchor_right = 0.5
+anchor_bottom = 0.133
+margin_left = -302.0
+margin_top = -112.24
+margin_right = 302.0
+margin_bottom = 112.76
+custom_fonts/font = SubResource( 25 )
+custom_styles/normal = SubResource( 26 )
+text = "НОВЫЙ
+МЕМСОНАЖ"
+align = 1
+valign = 1
+
+[node name="CharacterText" type="Label" parent="CharacterUnlock"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_left = 0.5
+anchor_top = 0.891
+anchor_right = 0.5
+anchor_bottom = 0.891
+margin_left = -312.0
+margin_top = -63.48
+margin_right = 312.0
+margin_bottom = 62.52
+rect_pivot_offset = Vector2( 312, 63 )
+custom_fonts/font = SubResource( 27 )
+custom_styles/normal = SubResource( 28 )
+align = 1
+valign = 1
+autowrap = true
+
+[node name="Close" type="Button" parent="CharacterUnlock"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/hover = SubResource( 29 )
+custom_styles/pressed = SubResource( 30 )
+custom_styles/focus = SubResource( 31 )
+custom_styles/disabled = SubResource( 32 )
+custom_styles/normal = SubResource( 33 )
+disabled = true
+
+[node name="CardPackOpen" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 71 )
+
+[node name="BG" type="Panel" parent="CardPackOpen"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 34 )
+
+[node name="OpenText" type="Label" parent="CardPackOpen"]
+anchor_left = 0.5
+anchor_top = 0.145
+anchor_right = 0.5
+anchor_bottom = 0.145
+margin_left = -322.5
+margin_top = -105.6
+margin_right = 322.5
+margin_bottom = 105.4
+custom_fonts/font = SubResource( 35 )
+text = "НАЖМИ ЧТОБЫ
+ОТКРЫТЬ"
+align = 1
+valign = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CardPackOpen"]
+anims/CardPackIdle = ExtResource( 73 )
+anims/Item1 = ExtResource( 78 )
+anims/Item2 = ExtResource( 89 )
+anims/Open = ExtResource( 72 )
+
+[node name="White" type="Panel" parent="CardPackOpen"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 36 )
+
+[node name="Items" type="Control" parent="CardPackOpen"]
+visible = false
+modulate = Color( 1, 1, 1, 0 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Coins_Item" type="Control" parent="CardPackOpen/Items"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -305.0
+margin_top = -278.5
+margin_right = 305.0
+margin_bottom = 278.5
+
+[node name="Coins" type="TextureRect" parent="CardPackOpen/Items/Coins_Item"]
+anchor_left = 0.5
+anchor_top = 0.406
+anchor_right = 0.5
+anchor_bottom = 0.406
+margin_left = -250.0
+margin_top = -278.642
+margin_right = 360.0
+margin_bottom = 278.358
+texture = ExtResource( 77 )
+expand = true
+stretch_mode = 1
+
+[node name="CoinsLabel" type="Label" parent="CardPackOpen/Items/Coins_Item"]
+anchor_left = 0.5
+anchor_top = 0.879
+anchor_right = 0.5
+anchor_bottom = 0.879
+margin_left = -219.5
+margin_top = -93.603
+margin_right = 219.5
+margin_bottom = 93.397
+custom_fonts/font = SubResource( 37 )
+text = "МЕМКОИНЫ
+23"
+align = 1
+valign = 1
+
+[node name="Upgrade" type="Control" parent="CardPackOpen/Items"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Up" type="Label" parent="CardPackOpen/Items/Upgrade"]
+anchor_left = 0.5
+anchor_top = 0.264
+anchor_right = 0.5
+anchor_bottom = 0.264
+margin_left = -340.5
+margin_top = -48.42
+margin_right = 340.5
+margin_bottom = 48.58
+custom_constants/shadow_as_outline = 64
+custom_fonts/font = SubResource( 57 )
+text = "Копия персонажа"
+
+[node name="TextureRect" type="TextureRect" parent="CardPackOpen/Items/Upgrade"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -183.5
+margin_top = -149.0
+margin_right = 183.5
+margin_bottom = 149.0
+texture = ExtResource( 21 )
+expand = true
+
+[node name="Label" type="Label" parent="CardPackOpen/Items/Upgrade"]
+anchor_left = 0.5
+anchor_top = 0.66
+anchor_right = 0.5
+anchor_bottom = 0.66
+margin_left = -169.5
+margin_top = -48.3
+margin_right = 169.5
+margin_bottom = 48.7
+custom_fonts/font = SubResource( 57 )
+text = "+1 копия"
+
+[node name="ItemsNumber" type="Control" parent="CardPackOpen/Items"]
+anchor_left = 0.563
+anchor_top = 0.917
+anchor_right = 0.563
+anchor_bottom = 0.917
+margin_left = -260.36
+margin_top = -49.76
+margin_right = 260.64
+margin_bottom = 50.24
+
+[node name="Panel" type="Panel" parent="CardPackOpen/Items/ItemsNumber"]
+anchor_left = 0.905
+anchor_top = 0.5
+anchor_right = 0.905
+anchor_bottom = 0.5
+margin_left = -50.129
+margin_top = -50.0
+margin_right = 49.871
+margin_bottom = 50.0
+custom_styles/panel = SubResource( 52 )
+
+[node name="Number" type="Label" parent="CardPackOpen/Items/ItemsNumber"]
+anchor_left = 0.906
+anchor_top = 0.435
+anchor_right = 0.906
+anchor_bottom = 0.435
+margin_left = -40.026
+margin_top = -49.5
+margin_right = 39.974
+margin_bottom = 49.5
+custom_fonts/font = SubResource( 53 )
+text = "1"
+align = 1
+valign = 1
+
+[node name="Label" type="Label" parent="CardPackOpen/Items/ItemsNumber"]
+anchor_left = 0.428
+anchor_top = 0.595
+anchor_right = 0.428
+anchor_bottom = 0.595
+margin_left = -167.988
+margin_top = -38.5
+margin_right = 168.012
+margin_bottom = 38.5
+custom_fonts/font = SubResource( 54 )
+text = "ОСТАЛОСЬ:"
+align = 2
+valign = 1
+
+[node name="Sphere" type="Control" parent="CardPackOpen"]
+visible = false
+modulate = Color( 1, 1, 1, 0 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -256.0
+margin_top = -256.0
+margin_right = 256.0
+margin_bottom = 256.0
+rect_pivot_offset = Vector2( 256, 256 )
+
+[node name="SphereCOLOR" type="TextureButton" parent="CardPackOpen/Sphere"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -256.0
+margin_top = -256.0
+margin_right = 256.0
+margin_bottom = 256.0
+rect_pivot_offset = Vector2( 256, 256 )
+texture_normal = ExtResource( 76 )
+
+[node name="Text" type="TextureRect" parent="CardPackOpen/Sphere"]
+physics_interpolation_mode = 1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -123.0
+margin_top = -108.5
+margin_right = 123.0
+margin_bottom = 108.5
+rect_pivot_offset = Vector2( 123, 108 )
+texture = ExtResource( 74 )
+
+[node name="CardPack" type="Control" parent="CardPackOpen"]
+anchor_left = 0.5
+anchor_top = 0.591
+anchor_right = 0.5
+anchor_bottom = 0.591
+margin_left = -256.0
+margin_top = -256.48
+margin_right = 256.0
+margin_bottom = 255.52
+rect_pivot_offset = Vector2( 256, 256 )
+
+[node name="part1" type="TextureRect" parent="CardPackOpen/CardPack"]
+anchor_left = 0.474
+anchor_top = 0.124
+anchor_right = 0.474
+anchor_bottom = 0.124
+margin_left = -175.688
+margin_top = -27.4883
+margin_right = 175.312
+margin_bottom = 27.5128
+texture = ExtResource( 99 )
+
+[node name="part2" type="TextureButton" parent="CardPackOpen/CardPack"]
+anchor_left = 0.474
+anchor_top = 0.581
+anchor_right = 0.474
+anchor_bottom = 0.581
+margin_left = -175.688
+margin_top = -206.474
+margin_right = 175.312
+margin_bottom = 206.526
+texture_normal = ExtResource( 100 )
+texture_disabled = ExtResource( 100 )
+
+[node name="Button" type="Button" parent="CardPackOpen"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+disabled = true
+
+[node name="FakeLoadScreen" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 84 )
+
+[node name="LoadingBG" type="TextureRect" parent="FakeLoadScreen"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 81 )
+expand = true
+
+[node name="ProgressBar" type="ProgressBar" parent="FakeLoadScreen"]
+anchor_left = 0.5
+anchor_top = 0.895
+anchor_right = 0.5
+anchor_bottom = 0.895
+margin_left = -262.5
+margin_top = -49.6001
+margin_right = 262.5
+margin_bottom = 50.3999
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 38 )
+custom_styles/fg = SubResource( 39 )
+custom_styles/bg = SubResource( 40 )
+
+[node name="Anim" type="AnimationPlayer" parent="FakeLoadScreen"]
+anims/Loading = ExtResource( 85 )
+anims/Skip = ExtResource( 94 )
+
+[node name="Panel" type="Panel" parent="FakeLoadScreen"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 45 )
+
+[node name="Logo" type="Control" parent="FakeLoadScreen"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -279.0
+margin_top = -279.0
+margin_right = 279.0
+margin_bottom = 279.0
+
+[node name="glow" type="TextureRect" parent="FakeLoadScreen/Logo"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -192.5
+margin_top = -192.5
+margin_right = 192.5
+margin_bottom = 192.5
+texture = ExtResource( 83 )
+expand = true
+
+[node name="text" type="TextureRect" parent="FakeLoadScreen/Logo"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -125.0
+margin_top = -125.0
+margin_right = 125.0
+margin_bottom = 125.0
+texture = ExtResource( 82 )
+expand = true
+
+[node name="Sound" type="AudioStreamPlayer" parent="FakeLoadScreen"]
+stream = ExtResource( 87 )
+volume_db = 24.0
+
+[node name="Load" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 86 )
+
+[node name="Panel" type="Panel" parent="Load"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 46 )
+
+[node name="Label" type="Label" parent="Load"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -347.5
+margin_top = -68.5
+margin_right = 347.5
+margin_bottom = 68.5
+custom_fonts/font = SubResource( 47 )
+text = "Загрузка соxранения
+Подождите..."
+align = 1
+valign = 1
+
+[node name="Timer" type="Timer" parent="Load"]
+
+[node name="Dialog" type="Control" parent="Load"]
+visible = false
+anchor_left = 0.172
+anchor_top = 0.386
+anchor_right = 0.828
+anchor_bottom = 0.614
+margin_left = 0.159996
+margin_top = 0.419983
+margin_right = -0.160034
+margin_bottom = -0.420044
+
+[node name="bg" type="Panel" parent="Load/Dialog"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 48 )
+
+[node name="Button" type="Button" parent="Load/Dialog"]
+anchor_left = 0.5
+anchor_top = 0.837
+anchor_right = 0.5
+anchor_bottom = 0.837
+margin_left = -38.0
+margin_top = -18.567
+margin_right = 38.0
+margin_bottom = 18.433
+custom_fonts/font = SubResource( 49 )
+text = "ОК"
+
+[node name="Label" type="Label" parent="Load/Dialog"]
+anchor_left = 0.5
+anchor_top = 0.438
+anchor_right = 0.5
+anchor_bottom = 0.438
+margin_left = -230.0
+margin_top = -90.458
+margin_right = 230.0
+margin_bottom = 90.542
+custom_fonts/font = SubResource( 50 )
+align = 1
+
+[node name="Skins" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Bg" type="TextureRect" parent="Skins"]
+visible = false
+anchor_right = 1.003
+anchor_bottom = 1.0
+margin_right = -2.16003
+texture = ExtResource( 1 )
+expand = true
+
+[node name="SettingsText" type="Label" parent="Skins"]
+anchor_left = 0.726
+anchor_top = 0.066
+anchor_right = 0.726
+anchor_bottom = 0.066
+margin_left = -161.72
+margin_top = -46.48
+margin_right = 161.28
+margin_bottom = 46.52
+custom_fonts/font = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "Скин-Паки"
+align = 1
+
+[node name="BackButSkins" type="TextureButton" parent="Skins"]
+anchor_left = 0.11
+anchor_top = 0.045
+anchor_right = 0.11
+anchor_bottom = 0.045
+margin_left = -70.2
+margin_top = -50.6
+margin_right = 73.8
+margin_bottom = 50.4
+texture_normal = ExtResource( 9 )
+expand = true
+
+[node name="Minigames" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 108 )
+
+[node name="Bg" type="TextureRect" parent="Minigames"]
+visible = false
+anchor_right = 1.003
+anchor_bottom = 1.0
+margin_right = -2.16003
+texture = ExtResource( 1 )
+expand = true
+
+[node name="GamesText" type="Label" parent="Minigames"]
+anchor_left = 0.736
+anchor_top = 0.066
+anchor_right = 0.736
+anchor_bottom = 0.066
+margin_left = -168.92
+margin_top = -46.48
+margin_right = 154.08
+margin_bottom = 46.52
+custom_fonts/font = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "Мини-игры"
+align = 1
+
+[node name="BackBut" type="TextureButton" parent="Minigames"]
+anchor_left = 0.11
+anchor_top = 0.045
+anchor_right = 0.11
+anchor_bottom = 0.045
+margin_left = -70.2
+margin_top = -50.6
+margin_right = 73.8
+margin_bottom = 50.4
+texture_normal = ExtResource( 9 )
+expand = true
+
+[node name="CTO" type="TextureButton" parent="Minigames"]
+anchor_left = 0.177
+anchor_top = 0.229
+anchor_right = 0.177
+anchor_bottom = 0.229
+margin_left = -115.44
+margin_top = -143.12
+margin_right = 115.56
+margin_bottom = 141.88
+texture_normal = ExtResource( 109 )
+
+[node name="CTO2" type="TextureButton" parent="Minigames"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.229
+anchor_right = 0.5
+anchor_bottom = 0.229
+margin_left = -115.5
+margin_top = -143.12
+margin_right = 115.5
+margin_bottom = 141.88
+texture_normal = ExtResource( 109 )
+
+[node name="CTO3" type="TextureButton" parent="Minigames"]
+visible = false
+anchor_left = 0.824
+anchor_top = 0.229
+anchor_right = 0.824
+anchor_bottom = 0.229
+margin_left = -115.28
+margin_top = -143.12
+margin_right = 115.72
+margin_bottom = 141.88
+texture_normal = ExtResource( 109 )
+
+[node name="CatchTheObject" parent="Minigames" instance=ExtResource( 15 )]
+
+[node name="bg_uppanel" type="Panel" parent="."]
+visible = false
+anchor_left = 0.018
+anchor_top = 0.012
+anchor_right = 0.979
+anchor_bottom = 0.165
+margin_left = 0.039999
+margin_top = -0.360001
+margin_right = 0.119995
+margin_bottom = -0.200012
+custom_styles/panel = SubResource( 65 )
+
+[node name="secret" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Bg" type="TextureRect" parent="secret"]
+anchor_right = 1.003
+anchor_bottom = 1.0
+margin_right = -2.16003
+texture = ExtResource( 7 )
+expand = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="secret"]
+anims/secret_anim = ExtResource( 96 )
+
+[node name="TextureRect" type="TextureRect" parent="secret"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -190.5
+margin_top = -242.0
+margin_right = 190.5
+margin_bottom = 242.0
+rect_pivot_offset = Vector2( 192.5, 246 )
+texture = ExtResource( 95 )
+
+[node name="rip" type="TextureRect" parent="secret"]
+anchor_left = 0.5
+anchor_top = 0.826
+anchor_right = 0.5
+anchor_bottom = 0.826
+margin_left = -111.0
+margin_top = -166.28
+margin_right = 111.0
+margin_bottom = 166.72
+rect_pivot_offset = Vector2( 192.5, 246 )
+texture = ExtResource( 88 )
+expand = true
+
+[node name="Label" type="Label" parent="secret"]
+anchor_left = 0.5
+anchor_top = 0.175
+anchor_right = 0.5
+anchor_bottom = 0.175
+margin_left = -298.5
+margin_top = -176.0
+margin_right = 298.5
+margin_bottom = 175.0
+custom_fonts/font = SubResource( 68 )
+text = "Ну эта
+скоро будет
+ждите короч"
+align = 1
+valign = 1
+
+[connection signal="pressed" from="UI/ClickButton" to="." method="_on_ClickButton_pressed"]
+[connection signal="pressed" from="UI/MemCharBut" to="." method="_on_MemCharBut_pressed"]
+[connection signal="pressed" from="UI/ShopBut" to="." method="_on_ShopBut_pressed"]
+[connection signal="pressed" from="UI/SettingsBut" to="." method="_on_SettingsBut_pressed"]
+[connection signal="pressed" from="UI/Info" to="." method="_on_Info_pressed"]
+[connection signal="pressed" from="UI/savequit" to="." method="_on_savequit_pressed"]
+[connection signal="pressed" from="UI/MiniGamesBut" to="." method="_on_MiniGamesBut_pressed"]
+[connection signal="pressed" from="Characters/BackBut" to="." method="_on_BackBut_pressed"]
+[connection signal="pressed" from="Characters/Cards/Default/DogeCard" to="." method="_on_DogeCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Default/SanicCard" to="." method="_on_SanicCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Unusual/DogWenoCard" to="." method="_on_DogWenoCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Unusual/HamsterCard" to="." method="_on_HamsterCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Unusual/AmogusCard" to="." method="_on_AmogusCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Unusual/ClippyCard" to="." method="_on_ClippyCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Legendary/TrollfaceCard" to="." method="_on_TrollfaceCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Legendary/SigmaCard" to="." method="_on_SigmaCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Legendary/ChaikaCard" to="." method="_on_ChaikaCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Legendary/ChillGuyCard" to="." method="_on_ChillGuyCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Specials/TabickCard" to="." method="_on_TabickCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Specials/HarpCard" to="." method="_on_HarpCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Specials/PivoCard" to="." method="_on_PivoCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Specials/MopsCard" to="." method="_on_MopsCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Specials/ChindaCard" to="." method="_on_ChindaCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Specials/ChernilkaCard" to="." method="_on_ChernilkaCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Specials/LeninCard" to="." method="_on_LeninCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Specials/ObnovaCard" to="." method="_on_ObnovaCard_pressed"]
+[connection signal="pressed" from="Characters/Cards/Left" to="Characters/Cards" method="_on_Left_pressed"]
+[connection signal="pressed" from="Characters/Cards/Right" to="Characters/Cards" method="_on_Right_pressed"]
+[connection signal="unlockcharacter" from="CharactersProfiles" to="CharacterUnlock" method="_on_CharactersProfiles_unlockcharacter"]
+[connection signal="pressed" from="CharactersProfiles/Profile/EquipBut" to="." method="_on_EquipBut_pressed"]
+[connection signal="pressed" from="CharactersProfiles/Profile/BackCharactersButT" to="." method="_on_BackCharactersButT_pressed"]
+[connection signal="pressed" from="CharactersProfiles/Upgrade/LevelUp" to="CharactersProfiles" method="_on_LevelUp_pressed"]
+[connection signal="pressed" from="CharactersProfiles/UnlockBut" to="CharactersProfiles" method="_on_UnlockBut_pressed"]
+[connection signal="pressed" from="Help/Telegram" to="Help" method="_on_Telegram_pressed"]
+[connection signal="pressed" from="Help/TikTok" to="Help" method="_on_TikTok_pressed"]
+[connection signal="pressed" from="Help/Back" to="." method="_on_Back_pressed"]
+[connection signal="unlock" from="Settings" to="CharacterUnlock" method="_on_Settings_unlock"]
+[connection signal="pressed" from="Settings/BackBut" to="." method="_on_BackBut_pressed"]
+[connection signal="toggled" from="Settings/Music" to="." method="_on_Music_toggled"]
+[connection signal="toggled" from="Settings/Music" to="Settings" method="_on_Music_toggled"]
+[connection signal="toggled" from="Settings/Skipload" to="Settings" method="_on_Skipload_toggled"]
+[connection signal="toggled" from="Settings/Sound" to="Settings" method="_on_Sound_toggled"]
+[connection signal="pressed" from="Settings/Agree" to="." method="_on_Agree_pressed"]
+[connection signal="pressed" from="Settings/Agree" to="Settings" method="_on_Agree_pressed"]
+[connection signal="pressed" from="Settings/SkinPacks" to="." method="_on_SkinPacks_pressed"]
+[connection signal="buy_sphere" from="Shop" to="CardPackOpen" method="_on_Shop_buy_sphere"]
+[connection signal="pressed" from="Shop/BackBut" to="." method="_on_BackBut_pressed"]
+[connection signal="pressed" from="Shop/BuyButtons/MonToGem" to="Shop" method="_on_MonToGem_pressed"]
+[connection signal="pressed" from="Shop/BuyButtons/RandomSphereBuy" to="Shop" method="_on_RandomSphereBuy_pressed"]
+[connection signal="pressed" from="Shop/BuyButtons/K500" to="Shop" method="_on_K500_pressed"]
+[connection signal="animation_finished" from="CharacterUnlock/AnimUnlock" to="CharacterUnlock" method="_on_AnimUnlock_animation_finished"]
+[connection signal="pressed" from="CharacterUnlock/Close" to="CharacterUnlock" method="_on_Close_pressed"]
+[connection signal="animation_finished" from="CardPackOpen/AnimationPlayer" to="CardPackOpen" method="_on_AnimationPlayer_animation_finished"]
+[connection signal="pressed" from="CardPackOpen/CardPack/part2" to="CardPackOpen" method="_on_2_pressed"]
+[connection signal="pressed" from="CardPackOpen/Button" to="CardPackOpen" method="_on_Button_pressed"]
+[connection signal="ended" from="FakeLoadScreen" to="." method="_on_FakeLoadScreen_ended"]
+[connection signal="animation_finished" from="FakeLoadScreen/Anim" to="FakeLoadScreen" method="_on_Anim_animation_finished"]
+[connection signal="Load_end" from="Load" to="FakeLoadScreen" method="_on_Load_Load_end"]
+[connection signal="timeout" from="Load/Timer" to="Load" method="_on_Timer_timeout"]
+[connection signal="pressed" from="Load/Dialog/Button" to="Load" method="_on_Button_pressed"]
+[connection signal="pressed" from="Skins/BackButSkins" to="." method="_on_BackButSkins_pressed"]
+[connection signal="pressed" from="Minigames/BackBut" to="." method="_on_BackBut_pressed"]
+[connection signal="pressed" from="Minigames/CTO" to="Minigames" method="_on_CTO_pressed"]
+[connection signal="pressed" from="Minigames/CTO2" to="Minigames" method="_on_CTO_pressed"]
+[connection signal="pressed" from="Minigames/CTO3" to="Minigames" method="_on_CTO_pressed"]

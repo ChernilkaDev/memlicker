@@ -1,0 +1,23 @@
+{
+    "pack": {
+        "name": "Классический",
+        "description": "Классический Текстур Пак игры",
+        "autor": "Чернилка",
+        "id": "classic_texture_pack",
+        "bg_color": "00b7ff"
+    },
+    "textures": {
+        "background": "textures/bg/bg.png",
+		"icon": "icons/icon.png",
+		"background_default": "textures/bg/bg_default.png",
+		"background_unusual": "textures/bg/bg_unusual.png",
+		"background_special": "textures/bg/bg_special.png",
+		"background_legendary": "textures/bg/bg_legendary.png",
+		"background_opensphere": "textures/bg/bg_opensphere.png",
+        		"randomsphere": "textures/RandomSphere/RandomSphere_bg.png",
+		"randomsphere_text": "textures/RandomSphere/RandomSphere_text.png",
+    },
+    "music": {
+        "sound" : "res://audio/musicbg.mp3"
+    }
+}

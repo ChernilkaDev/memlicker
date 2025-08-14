@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/money-soundfx.mp3-965b1d8a3038ac3523cfc95b1ffce778.mp3str"
+
+[deps]
+
+source_file="res://Audio/Sounds/money-soundfx.mp3"
+dest_files=[ "res://import/money-soundfx.mp3-965b1d8a3038ac3523cfc95b1ffce778.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
